@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[attributes_for(:${1:model}${2:, ${3:attributes}})]]></content>
+  <tabTrigger>fgc</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+  <description>attributes_for(:model, attributes)</description>
+</snippet>

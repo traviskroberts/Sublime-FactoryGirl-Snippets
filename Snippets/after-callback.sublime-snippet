@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[after(:${1:create}) { |${2:resource}| $0 }]]></content>
+  <tabTrigger>after</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+  <description>after(:create|:build|:stub) { |resource| ... }</description>
+</snippet>

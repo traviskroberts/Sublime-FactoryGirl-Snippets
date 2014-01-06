@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[sequence(:${1:attribute}${2:, initial value}) { |n| ${0:"#{n\}"} }]]></content>
+  <tabTrigger>seq</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+  <description>sequence(:attribute) { ... }</description>
+</snippet>
